@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+.sideBar {
+  background-color: rgb(248, 240, 228);
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+}
+a {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+a:hover {
+  color: #2b2bb2;
+  transition: 0.3s;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.avatar {
+  width: 80px;
+  border-radius: 50px;
+  border: 3px solid white;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline-start: 0px;
+  gap: 10px;
+  flex: 1;
+}
